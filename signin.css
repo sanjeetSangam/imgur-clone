@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Cabin&family=Source+Sans+Pro&display=swap");
+
+* {
+  color: white;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Balsamiq Sans", cursive;
+  font-family: "Cabin", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background: #141518;
+  position: relative;
+}
+
+.home {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+
+.singin_container {
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.sigin_main {
+  /* border: 1px solid red; */
+  width: 350px;
+  text-align: center;
+}
+
+.sigin_main > img {
+  width: 55%;
+  margin-bottom: 50px;
+}
+
+.signIn_content > p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.icons_sign {
+  background: #2c2f34;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.icons_sign ion-icon {
+  height: 25px;
+  width: 25px;
+  background: #141518;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.fb {
+  border-bottom: 5px solid #3a558e;
+}
+
+.fb:hover {
+  background: #3a558e;
+  border-bottom: 5px solid #3a558e;
+}
+
+.tw {
+  border-bottom: 5px solid #4099ff;
+}
+
+.tw:hover {
+  background-color: #4099ff;
+  border-bottom: 5px solid #4099ff;
+}
+
+.app {
+  border-bottom: 5px solid #ffffff;
+}
+
+.app:hover {
+  color: black;
+  background: white;
+  border-bottom: 5px solid #ffffff;
+}
+
+.mail {
+  border-bottom: 5px solid #4099ff;
+}
+
+.mail:hover {
+  background: #4099ff;
+  border-bottom: 5px solid #4099ff;
+}
+
+.yahoo {
+  border-bottom: 5px solid #7b0099;
+}
+
+.yahoo:hover {
+  background: #7b0099;
+  border-bottom: 5px solid #7b0099;
+}
+
+.signIn_box {
+  background: #2c2f34;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.signIn_box form {
+  width: 100%;
+}
+
+.sigin_main form {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+
+.signIn_box form input {
+  width: 100%;
+  padding: 10px 10px;
+  background: #141518;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.forget {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 0.8fr;
+  margin-top: 10px;
+}
+
+.forget input {
+  grid-column: 1/2;
+}
+
+.forget button {
+  background: #51555c;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: wheat;
+}
+
+.click_to_singIn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5%;
+  margin-top: 15px;
+}
+
+.click_to_singIn button {
+  background: #5c69ff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.click_to_singIn h4 {
+  font-weight: 300;
+}
